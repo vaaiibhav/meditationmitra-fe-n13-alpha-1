@@ -20,12 +20,12 @@ export const PrimaryTransparentButton = styled(Button)`
 `
 
 export const SecondaryButton = styled(Button)(() => ({
-        fontSize: '1.25rem',
+        fontSize: 'var(--fs-h4)',
         position: 'absolute',
         top: '21%',
         right: 0,
         padding: 0,
-        fontWeight: 600,
+        fontWeight: 'var(--semibold-weight)',
         color: 'var(--orange)',
         letterSpacing: '2px'
     })
