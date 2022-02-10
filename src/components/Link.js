@@ -6,7 +6,7 @@ const Link = styled(MaterialLink)``;
 export const LogoLink = styled(Link)`
   text-decoration: none;
   color: var(--orange);
-  font-family: DM Serif Display;
+  font-family: var(--ff-bm-sarif);
   font-size: var(--fs-h4);
   font-style: normal;
   font-weight: var(--semibold-weight);
@@ -28,10 +28,10 @@ export const MenuLink = styled(Link)`
   ${({ selected }) =>
     selected &&
     `
-            font-size: var(fs-a-selected);
-            font-weight: var(--medium-weight);
-            color: var(--a-selected);
-        `}
+          font-size: var(fs-a-selected);
+          font-weight: var(--medium-weight);
+          color: var(--a-selected);
+    `}
 `;
 
 export default Link;

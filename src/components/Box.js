@@ -5,20 +5,20 @@ const Box = styled(MaterailBox)`
   ${({ header }) =>
     header &&
     `
-            padding: 1rem;
-            background: var(--white);
-            min-height: 35px;
-        `};
+          padding: 1rem;
+          background: var(--white);
+          min-height: 35px;
+    `};
 
   ${({ hpPartOne }) =>
     hpPartOne &&
     `
-            padding: 1rem;
-            background: var(--orange);
-            min-height: 35px;
-            position: relative;
-            color: var(--white);
-        `};
+          padding: 1rem;
+          background: var(--orange);
+          min-height: 35px;
+          position: relative;
+          color: var(--white);
+    `};
 
   ${({ mobHeader }) =>
     mobHeader &&

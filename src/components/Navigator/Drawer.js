@@ -1,4 +1,4 @@
-import * as React from "react";
+import { Fragment, useState } from "react";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Box from "../Box";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -9,7 +9,7 @@ import ListItemText from "@mui/material/ListItemText";
 import PropTypes from "prop-types";
 
 const Drawer = ({ items = [], onNavigate }) => {
-  const [state, setState] = React.useState(false);
+  const [state, setState] = useState(false);
   const currentPage = window.location.pathname || "/";
 
   const toggleDrawer = (open) => (event) => {
@@ -48,7 +48,7 @@ const Drawer = ({ items = [], onNavigate }) => {
   );
 
   return (
-    <React.Fragment>
+    <Fragment>
       <MenuIcon onClick={toggleDrawer(true)} />
       <SwipeableDrawer
         anchor="right"
@@ -58,7 +58,7 @@ const Drawer = ({ items = [], onNavigate }) => {
       >
         {list()}
       </SwipeableDrawer>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

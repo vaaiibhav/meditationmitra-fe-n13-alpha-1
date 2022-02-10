@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 
 const BottomNav = ({ items = [], onNavigate }) => {
   const currentPage = window.location.pathname || "/";
-
   return (
     <Box>
       <BottomNavigation value={currentPage}>
@@ -27,7 +26,7 @@ const BottomNav = ({ items = [], onNavigate }) => {
 };
 
 BottomNav.propTypes = {
-  items: PropTypes.any,
+  items: PropTypes.array,
   onNavigate: PropTypes.func,
 };
 

@@ -32,19 +32,16 @@ const Header = () => {
     },
   ];
 
-  const handleNavigation = (selectedNavigation = "/") => {
+  const handleNavigation = (selectedNavigation = "/") =>
     navigate(selectedNavigation);
-  };
 
-  const bottomHeader = () => {
-    return (
-      <Box mobHeader display={["block", "block", "none"]}>
-        <BottomNav items={menuItems} onNavigate={handleNavigation} />
-      </Box>
-    );
-  };
+  const bottomHeader = () => (
+    <Box mobHeader display={["block", "block", "none"]}>
+      <BottomNav items={menuItems} onNavigate={handleNavigation} />
+    </Box>
+  );
   return (
-    <Box>
+    <>
       <Box header display={["none", "none", "block"]}>
         <Container maxWidth="xl">
           <Grid container spacing={2}>
@@ -73,7 +70,7 @@ const Header = () => {
         </Container>
       </Box>
       {bottomHeader()}
-    </Box>
+    </>
   );
 };
 
