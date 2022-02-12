@@ -1,7 +1,9 @@
 import styled from "@emotion/styled";
 import { Container as MaterailContainer } from "@mui/material";
+import { compose, spacing } from "@mui/system";
 
 const Container = styled(MaterailContainer)`
+  ${compose(spacing)}
   ${({ mobBody }) =>
     mobBody &&
     `

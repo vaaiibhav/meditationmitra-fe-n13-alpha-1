@@ -1,3 +1,4 @@
+import AddCourse from "./pages/AddCourse";
 import Courses from "./pages/Courses";
 import EnrolledCourses from "./pages/EnrolledCourses";
 import Profile from "./pages/Profile";
@@ -14,6 +15,10 @@ const routes = [
   {
     path: "/user/profile",
     element: <Profile />,
+  },
+  {
+    path: "/user/add-course",
+    element: <AddCourse />,
   },
   // {
   //     path: '*',
