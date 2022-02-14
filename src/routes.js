@@ -2,6 +2,8 @@ import AddCourse from "./pages/AddCourse";
 import Courses from "./pages/Courses";
 import EnrolledCourses from "./pages/EnrolledCourses";
 import Profile from "./pages/Profile";
+import Home from "./pages/Home";
+import PostLogin from "./pages/PostLogin";
 
 const routes = [
   {
@@ -19,6 +21,14 @@ const routes = [
   {
     path: "/user/add-course",
     element: <AddCourse />,
+  },
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/user/post-login",
+    element: <PostLogin />,
   },
   // {
   //     path: '*',
