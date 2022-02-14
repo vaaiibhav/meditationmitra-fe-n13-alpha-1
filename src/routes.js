@@ -1,6 +1,8 @@
 import Courses from "./pages/Courses";
 import EnrolledCourses from "./pages/EnrolledCourses";
 import Profile from "./pages/Profile";
+import Profile from "./pages/Home";
+import Profile from "./pages/PostLogin";
 
 const routes = [
   {
@@ -15,6 +17,16 @@ const routes = [
     path: "/user/profile",
     element: <Profile />,
   },
+  
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/user/post-login",
+    element: <PostLogin />,
+  },
+
   // {
   //     path: '*',
   //     element: <NotFound/>

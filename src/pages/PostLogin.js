@@ -1,7 +1,7 @@
 import DeskView from "../components/DeskView";
 import MobileView from "../components/MobileView";
 
-const Profile = () => {
+const PostLogin = () => {
   return (
     <>
       <DeskView>PostLogin page</DeskView>
