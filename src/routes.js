@@ -1,8 +1,8 @@
 import Courses from "./pages/Courses";
 import EnrolledCourses from "./pages/EnrolledCourses";
 import Profile from "./pages/Profile";
-import Profile from "./pages/Home";
-import Profile from "./pages/PostLogin";
+import Home from "./pages/Home";
+import PostLogin from "./pages/PostLogin";
 
 const routes = [
   {
