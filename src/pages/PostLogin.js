@@ -4,7 +4,6 @@ import {TextDark,TextBlack} from "../components/Typography";
 import {PrimaryButton} from "../components/Buttons";
 import CenterContent from "../components/CenterContent";
 
-
 const PostLogin = () => {
   return (
     <>
@@ -31,6 +30,8 @@ const PostLogin = () => {
         <PrimaryButton> Register as Coach </PrimaryButton>
       </CenterContent>
     </MobileView>
+      <DeskView>PostLogin page</DeskView>
+      <MobileView>PostLogin page</MobileView>
     </>
   );
 };

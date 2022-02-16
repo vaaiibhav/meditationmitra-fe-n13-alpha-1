@@ -17,6 +17,7 @@ const Header = () => {
   const menuItems = [
     {
       label: "Home",
+      label: "My Courses",
       path: "/enrolled-courses",
       icon: <HomeOutlinedIcon />,
     },

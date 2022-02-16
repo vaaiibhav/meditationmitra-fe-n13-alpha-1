@@ -8,6 +8,7 @@ const Box = styled(MaterailBox)`
           padding: 1rem;
           background: var(--white);
           min-height: 35px;
+          border-bottom: 1px solid var(--orange);
     `};
 
   ${({ hpPartOne }) =>

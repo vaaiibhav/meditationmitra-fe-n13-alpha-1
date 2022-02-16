@@ -25,6 +25,8 @@ const Profile = () => {
       <TextBlack>Frequently asked questions</TextBlack>
       <TextBlack>Share Meditation Mitra</TextBlack>
       </MobileView>
+      <DeskView>Profile page</DeskView>
+      <MobileView>Profile page</MobileView>
     </>
   );
 };
